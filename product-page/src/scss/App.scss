@@ -1,0 +1,39 @@
+.App {
+  .cart-header {
+    background-color: #f6f6f7;
+
+    .my-cart {
+      text-align: right;
+      margin: 0;
+      padding: 1%;
+
+      a {
+        color: #888888;
+        text-decoration: none;
+      }
+
+      a:hover {
+        color: #222222;
+      }
+    }
+  }
+
+  .product-body {
+    padding-top: 1%;
+
+    .product-information {
+      text-align: left;
+
+      .product-name {
+      }
+
+      .product-price {
+        font-weight: bold;
+      }
+
+      .product-description {
+        color: #888888;
+      }
+    }
+  }
+}
